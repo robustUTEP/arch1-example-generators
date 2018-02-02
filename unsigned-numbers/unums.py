@@ -16,6 +16,6 @@ def makeu():
 
 
 for i in range(20):
-    formatChar = "xod"[i%3]
+    formatChar = "xo"[i%2]
     formatStr = "%%#%c" % formatChar
     print formatStr % makeu()
