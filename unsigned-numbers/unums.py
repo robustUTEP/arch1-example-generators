@@ -4,7 +4,7 @@ import random
 debug = False 
 
 def makeu():
-    numbits = random.randrange(3, 12)
+    numbits = random.randrange(5, 12)
     zlsb = random.randrange(0, numbits)
     zmsb = random.randrange(zlsb, numbits)
     n = (1 << numbits) - 1
